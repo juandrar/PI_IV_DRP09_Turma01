@@ -53,3 +53,4 @@ notebooks/            # EDA
 - Cobertura de 2026 pode estar parcial.
 - População IBGE é usada para validar/recalcular a taxa de casos por 10 mil habitantes.
 # PI_IV_DRP09_TURMA01
+# PI_IV_DRP09_TURMA01
