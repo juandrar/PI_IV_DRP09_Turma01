@@ -1,0 +1,29 @@
+{
+  "n_rows": 378018,
+  "anos": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "n_municipios": 4972,
+  "registros_2024_2026": 111574,
+  "parquet_load_seconds": 0.131,
+  "kpis_2024_2026": {
+    "n_municipios": 4547,
+    "n_registros": 111574,
+    "casos_total": 9648831,
+    "incidencia_media_10k": 41.93084994168197,
+    "taxa_ecoli_media": 0.0065385046759436636,
+    "taxa_coliformes_media": 0.043925701335766065,
+    "total_amostras_ecoli": 5554156,
+    "total_amostras_coliformes": 5813377
+  },
+  "errors": [],
+  "ok": true
+}

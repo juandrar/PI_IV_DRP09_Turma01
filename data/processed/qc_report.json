@@ -1,0 +1,34 @@
+{
+  "n_rows": 378018,
+  "n_municipios": 4972,
+  "n_ufs": 26,
+  "anos": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "rows_por_ano": {
+    "2018": 45711,
+    "2019": 46336,
+    "2020": 42798,
+    "2021": 42465,
+    "2022": 45419,
+    "2023": 43715,
+    "2024": 43892,
+    "2025": 45331,
+    "2026": 22351
+  },
+  "duplicatas_mun_mes": 0,
+  "gaps_mes_exceto_2026": 47461,
+  "pct_match_ibge": 100.0,
+  "sem_amostra_coliformes": 136,
+  "sem_amostra_ecoli": 10997,
+  "casos_total_zero": 28305,
+  "habitantes_nulos": 0
+}

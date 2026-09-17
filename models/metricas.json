@@ -1,0 +1,40 @@
+{
+  "target": "total_casos_por_10k_hab",
+  "model_name": "gbr",
+  "n_train": 265842,
+  "n_test": 88151,
+  "n_holdout_2026": 22134,
+  "baseline_mean": {
+    "mean_train": 24.6112335288123,
+    "rmse": 39.966130501341055,
+    "mae": 27.12991954864559,
+    "r2": -0.15037550597132254
+  },
+  "linear": {
+    "rmse": 26.692843089315993,
+    "mae": 16.737810257933738,
+    "r2": 0.48684910724963915
+  },
+  "model": {
+    "rmse": 24.838487075099515,
+    "mae": 15.662710831940386,
+    "r2": 0.5556699350035554
+  },
+  "holdout_2026": {
+    "rmse": 22.99362101759224,
+    "mae": 14.578951109198444,
+    "r2": 0.5932459184732768
+  },
+  "limitacoes": [
+    "Associação estatística não implica causalidade.",
+    "Lags de incidência capturam persistência temporal, não só qualidade da água.",
+    "Cobertura e qualidade das amostras variam entre municípios.",
+    "2026 pode estar com dados parciais."
+  ],
+  "artifacts": {
+    "model": "/home/helton/pessoais/PI_IV/models/modelo_incidencia.joblib",
+    "metrics": "/home/helton/pessoais/PI_IV/models/metricas.json",
+    "importance": "/home/helton/pessoais/PI_IV/models/feature_importance.csv",
+    "predictions": "/home/helton/pessoais/PI_IV/data/processed/predicoes_teste.parquet"
+  }
+}
